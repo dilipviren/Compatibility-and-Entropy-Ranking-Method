@@ -9,7 +9,7 @@ Original Paper discussing ranking algorithm: https://link.springer.com/article/1
 
 # 'comp_en_class' contains class:
 
-## CompatibilityEntropyRanking(file_name, type_attr, e_lower=None, e_upper=None, best_value=True, headers=None, objects_as_columns=True, object_tobe_ranked='')
+>CompatibilityEntropyRanking(file_name, type_attr, e_lower=None, e_upper=None, best_value=True, headers=None, objects_as_columns=True, object_tobe_ranked='')
                                                          
 ## Parameters:                                                            
 >1. file_name: path of .csv file containing dataset with decision objects and attributes.  
