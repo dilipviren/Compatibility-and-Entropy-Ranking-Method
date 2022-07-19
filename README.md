@@ -9,20 +9,19 @@ Original Paper discussing ranking algorithm: https://link.springer.com/article/1
 
 # 'comp_en_class' contains class:
 
-## CompatibilityEntropyRanking(file_name, type_attr, e_lower=None, e_upper=None, best_value=True,
-                                                           headers=None, objects_as_columns=True, object_tobe_ranked='')
+## CompatibilityEntropyRanking(file_name, type_attr, e_lower=None, e_upper=None, best_value=True, headers=None, objects_as_columns=True, object_tobe_ranked='')
                                                          
 ## Parameters:                                                            
--file_name: path of .csv file containing dataset with decision objects and attributes.  
--type_attr: iterable (list or tuple) containing the type of each decision attribute as a string. example: ('Monotone1', 'Monotone2',
+>1. file_name: path of .csv file containing dataset with decision objects and attributes.  
+>2. type_attr: iterable (list or tuple) containing the type of each decision attribute as a string. example: ('Monotone1', 'Monotone2',
                                                                                                      'Interval1', 'Interval2',
                                                                                                      'Extreme1', 'Extreme2')      
--e_lower: lower limit of interval, if a given attribute has interval type  
--e_upper: upper limit of interval, if a given attribute has interval type  
--best_value: bool, whether a given attribute has best value at the max point or interval  
--header:   
--objects_as_columns: bool, whether the decision objects comprise the columns of the input data  
--objects_tobe_ranked: the names of the decision objects (plan, scheme, etc.)  
+>3. e_lower: lower limit of interval, if a given attribute has interval type  
+>4. e_upper: upper limit of interval, if a given attribute has interval type  
+>5. best_value: bool, whether a given attribute has best value at the max point or interval  
+>6. header:   
+>7. objects_as_columns: bool, whether the decision objects comprise the columns of the input data  
+>8. objects_tobe_ranked: the names of the decision objects (plan, scheme, etc.)  
 
 ### Types of decision attributes:   
    >1) Monotone type 1 (or type 2) where the attribute is more optimal when the value is largest (or smallest),  
