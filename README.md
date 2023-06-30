@@ -28,7 +28,6 @@ Original Paper discussing ranking algorithm: https://link.springer.com/article/1
    >2) Interval type 1 (or type 2) where the attribute has the best (or worst) impact when it lies in a certain interval,  
    >3) Extreme point type 1 (or type 2) where the attribute has best (or worst) impact at a partiular value, which is not a maximum or minimum value  
 
-## Methods: 
 
 
 
